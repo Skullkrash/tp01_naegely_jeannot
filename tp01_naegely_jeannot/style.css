@@ -1,0 +1,21 @@
+.title {
+    font-size: 24;
+    color: red;
+}
+
+.formulary, .title {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.formulary-child {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
